@@ -156,20 +156,25 @@
       <!-- img reebook -->
     </div>
     <div>
+
+      <h4>Create Phone Number</h4>
       <code>
-  <h4>Create Phone Number</h4>
         function createPhoneNumber(numbers){<br>
           return numbers.join('').replace(/(\d{3})(\d{3})(\d{4})/,'($1) $2-$3');<br>
        }
-<h4>Find the stray number</h4>
+  </code>
+      <h4>Find the stray number</h4>
+      <code>
        function stray(numbers) {<br>
         let res = numbers[0];<br>
-        for (let i = 1; i < numbers.length; i++)<br>
+        for (let i = 1; i &lt; numbers.length; i++)<br>
             res = res ^ numbers[i];<br>
         return res;<br>
     }
-
-    <h4>Html code </h4>
+  </code>
+      <br>
+      <h4>Html code </h4>
+      <code>
     &lt;!DOCTYPE html&gt;<br>
 
 
