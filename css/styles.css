@@ -85,6 +85,11 @@ nav{
   margin: auto;
 }
 
+.portfolioImg{
+  width: 600px;
+  height: 300px;
+}
+
 .column {
   float: left;
   width: 25%;
