@@ -9,3 +9,6 @@
   -Able to create responsive, modern, and user-friendly applications
   and web pages
   using a mobile-first approach
+ 1. Node.js
+  2. Express.js
+  3. MongoDB
