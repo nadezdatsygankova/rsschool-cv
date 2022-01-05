@@ -22,12 +22,14 @@
           <span></span>
         </div>
         <nav>
-          <a class="navbarHome" href="#header">Home </a>
-          <a href="#aboutMe">About me </a>
-          <a href="#skills">Skills </a>
-          <a href="#portfolio">Portfolio </a>
-          <a href="#education">Education </a>
-          <a href="#cont"> Contacts</a>
+          <ul>
+            <li><a class="navbarHome" href="#header">Home </a></li>
+            <li><a href="#aboutMe">About me </a> </li>
+            <li><a href="#skills">Skills </a></li>
+            <li><a href="#portfolio">Portfolio </a></li>
+            <li><a href="#education">Education </a></li>
+            <li> <a href="#cont"> Contacts</a> </li>
+          </ul>
           <br />
           <hr class="hraftertop" />
         </nav>
@@ -153,7 +155,62 @@
       <img src="img/Museum.jpg" alt="temp" class="portfolioImg" />
       <!-- img reebook -->
     </div>
+    <div>
+      <code>
+  <h4>Create Phone Number</h4>
+        function createPhoneNumber(numbers){<br>
+          return numbers.join('').replace(/(\d{3})(\d{3})(\d{4})/,'($1) $2-$3');<br>
+       }
+<h4>Find the stray number</h4>
+       function stray(numbers) {<br>
+        let res = numbers[0];<br>
+        for (let i = 1; i < numbers.length; i++)<br>
+            res = res ^ numbers[i];<br>
+        return res;<br>
+    }
 
+    <h4>Html code </h4>
+    &lt;!DOCTYPE html&gt;<br>
+
+
+    &lt;html lang = "en"&gt;<br>
+
+    &lt;head&gt;<br>
+
+    &lt;meta charset="UTF-8" /&gt;<br>
+
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+
+    &lt;title >Store &lt;/title>&gt;<br>
+
+    &lt;link rel="stylesheet" type="text/css" href="CSS.css" /&gt;   <br>
+
+    &lt;/head&gt;<br>
+
+
+    &lt;body&gt;<br>
+
+    &lt;header&gt;<br>
+    &lt;p>&gt; Sportshop   &lt;/p&gt;<br>
+
+    &lt;nav id ="container2"&gt;<br>
+    &lt;ul&gt;<br>
+    &lt;li&gt;&lt;a class="op"> MENU &lt;/a&gt;&lt;/li&gt;<br>
+    &lt;li&gt; &lt;a class ="tran active" href = "home.html"  target ="iframe_a">&gt; HOME &lt;/a&gt; &lt;/li&gt;<br>
+    &lt;li&gt;&lt;a class="tran" href = "CYCLING.html" target ="iframe_a"&gt;CYCLING &lt;/a&gt;&lt;/li&gt;<br>
+    &lt;li&gt;&lt;a class="tran" href = "OUTDOOR.html" target ="iframe_a"&gt;OUTDOOR &lt;/a&gt;&lt;/li&gt;<br>
+
+    &lt;li&gt;&lt;a class="op"> MENU &lt;/a&gt;&lt;/li&gt;<br>
+    &lt;/ul&gt;<br>
+    &lt;/nav&gt;<br>
+
+
+
+    &lt;/header&gt;<br>
+
+
+      </code>
+    </div>
 
   </section>
 
@@ -165,6 +222,7 @@
         <li>
           C++ Essential Training. LinkedIn
         </li>
+        <li> English C1</li>
       </ul>
       <br />
       <br />
@@ -209,7 +267,7 @@
         <p class="end">
 
           Like me on<br />
-          2021
+          2022
         </p>
       </div>
     </div>
